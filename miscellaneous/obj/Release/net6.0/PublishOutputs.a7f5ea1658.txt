@@ -1,0 +1,11 @@
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\miscellaneous.exe
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\appsettings.Development.json
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\appsettings.json
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\miscellaneous.dll
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\miscellaneous.deps.json
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\miscellaneous.runtimeconfig.json
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\miscellaneous.pdb
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\Microsoft.OpenApi.dll
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\carva\Documents\Asp.Net Core Personal\miscellaneous\miscellaneous\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

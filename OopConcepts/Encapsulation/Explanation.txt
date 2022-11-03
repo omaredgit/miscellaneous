@@ -1,0 +1,14 @@
+﻿This is a programming style where implementation details are hidden. It reduces software development complexity greatly.
+With Encapsulation, only methods are exposed. The programmer does not have to worry about implementation details but is only concerned with the operations.
+For example, if a developer wants to use a dynamic link library to display date and time, he does not have to worry about
+the codes in the date and time class rather he would simply use the data and time class by using public variables to call it up.
+In essence encapsulation is achieved in Python and Java by creating Private variables to define hidden classes in and then using 
+public variables to call them up for use. With this approach, a class can be updated or maintained without worrying about the methods using them.
+If you are calling up a class in ten methods and you need to make changes, you don’t have to update the entire methods rather you update a single class.
+Once the class is changed, it automatically updates the methods accordingly. Encapsulation also ensures that your data is hidden from external modification.
+Encapsulation is also known as Data-Hidden. 
+
+Encapsulation can be viewed as a shield that protects data from getting accessed by outside code. 
+
+In essence, Encapsulation binds data and code as a single unit and enforces modularity. 
+
