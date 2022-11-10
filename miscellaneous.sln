@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "miscellaneous", "miscellaneous\miscellaneous.csproj", "{B6BF6CE1-D9EA-4453-820A-05EDC94A85D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopConcepts", "OopConcepts\OopConcepts.csproj", "{06604128-4620-4E72-B835-136F2D6044C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopConcepts", "OopConcepts\OopConcepts.csproj", "{06604128-4620-4E72-B835-136F2D6044C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
