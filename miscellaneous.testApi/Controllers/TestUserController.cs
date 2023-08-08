@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using miscellaneous.Controllers;
 using miscellaneous.Models;
 using miscellaneous.Services.UserService;
+using miscellaneous.testApi.Fixtures;
 using Moq;
 
 namespace miscellaneous.testApi.Controllers
@@ -14,10 +15,7 @@ namespace miscellaneous.testApi.Controllers
         {
             //Arrange
             var mockService = new Mock<IUserService>();
-            mockService.Setup(service => service.GetAll()).ReturnsAsync(new List<User>() {
-                new User{ Id = 1, Name = "Omar", Email="asdsd", Password="sdfsdf" }
-
-            });
+            mockService.Setup(service => service.GetAll()).ReturnsAsync(UserFixture.GetAllUsers());
             var sut = new UserController(mockService.Object);
 
             //Act
@@ -33,9 +31,7 @@ namespace miscellaneous.testApi.Controllers
         {
             //Arrange
             var mockService = new Mock<IUserService>();
-            mockService.Setup(service => service.GetAll()).ReturnsAsync(new List<User>() {
-                new User{ Id = 1, Name = "Omar", Email="asdsd", Password="sdfsdf"
-            } });
+            mockService.Setup(service => service.GetAll()).ReturnsAsync(UserFixture.GetAllUsers());
             var sut = new UserController(mockService.Object);
 
             //Act
@@ -54,19 +50,7 @@ namespace miscellaneous.testApi.Controllers
         {
             //Arrange
             var mockService = new Mock<IUserService>();
-            mockService.Setup(service => service.GetAll()).ReturnsAsync(new List<User>()
-            {
-                                new User
-                                {
-                                    Id = 1,
-                                    Name = "Omar",
-                                    Email = "asdsd",
-                                    Password = "sdfsdf"
-                                }
-            }
-            )
-            ; 
-
+            mockService.Setup(service => service.GetAll()).ReturnsAsync(UserFixture.GetAllUsers());
             var sut = new UserController(mockService.Object);
 
             //Act
